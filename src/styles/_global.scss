@@ -9,3 +9,7 @@ body {
 .wrap {
   @apply w-screen md:max-w-[767px] mx-auto p-10;
 }
+
+a {
+  @apply hover:underline text-magenta dark:text-cyan;
+}

@@ -21,9 +21,14 @@ export function ModeToggle() {
   }, [theme]);
 
   return (
-    <div>
-      <button onClick={() => setThemeState("theme-light")}>Light</button>
-      <button onClick={() => setThemeState("dark")}>Dark</button>
+    <div className="mb-10 text-2xl">
+      {theme === "dark" && (
+        <button onClick={() => setThemeState("theme-light")}>🌤️</button>
+      )}
+
+      {theme !== "dark" && (
+        <button onClick={() => setThemeState("dark")}>🌘</button>
+      )}
     </div>
   );
 }

@@ -1,0 +1,3 @@
+procs:
+  dev-shell: nix develop --command zsh
+  dev-server: nix develop --command pnpm dev
