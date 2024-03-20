@@ -1,0 +1,11 @@
+:root {
+  --foo: bar;
+}
+
+body {
+  @apply bg-base-paper dark:bg-base-black text-base-950 dark:text-base-200 text-lg;
+}
+
+.wrap {
+  @apply w-screen md:max-w-[767px] mx-auto p-10;
+}

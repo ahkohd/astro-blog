@@ -1,0 +1,26 @@
+---
+import HeaderLink from "./HeaderLink.astro";
+import { SITE_TITLE } from "../consts";
+import { ModeToggle } from "../components/ModeToggle";
+---
+
+<header>
+  <nav class="flex flex-col items-center justify-center gap-4 mb-5">
+    <div class="flex flex-col gap-2 items-center border-b border-black/10 pb-3">
+      <img
+        width="60"
+        class="rounded-full"
+        src="https://avatars.githubusercontent.com/u/13041443?v=4"
+        alt="Victor's photo"
+      />
+      <h2 class="text-lg capitalize"><a href="/">{SITE_TITLE}</a></h2>
+    </div>
+
+    <div class="flex gap-5 text-sm">
+      <HeaderLink href="https://github.com/ahkohd">Open source</HeaderLink>
+      <span>✦</span>
+      <HeaderLink href="https://aremu.dev">Made by Aremu</HeaderLink>
+    </div>
+    <ModeToggle client:load />
+  </nav>
+</header>

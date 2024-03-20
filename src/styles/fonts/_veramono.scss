@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Bitstream Vera Sans Mono";
+  src:
+    local("Bitstream Vera Sans Mono"),
+    url("/fonts/VeraMono.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Bitstream Vera Sans Mono";
+  src:
+    local("Bitstream Vera Sans Mono"),
+    url("/fonts/VeraMoBd.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Bitstream Vera Sans Mono";
+  font-style: italic;
+  src:
+    local("Bitstream Vera Sans Mono"),
+    url("/fonts/VeraMoIt.ttf") format("truetype");
+  font-weight: 500;
+}
