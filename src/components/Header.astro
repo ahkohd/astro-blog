@@ -1,0 +1,31 @@
+---
+import HeaderLink from "./HeaderLink.astro";
+import { SITE_TITLE } from "../consts";
+---
+
+<header>
+  <nav class="flex flex-col items-center justify-center gap-4 mb-10">
+    <div class="flex flex-col gap-3 items-center pb-3">
+      <img
+        width="60"
+        class="rounded-xl"
+        src="https://avatars.githubusercontent.com/u/13041443?v=4"
+        alt="Victor's photo"
+      />
+
+      <h2
+        class="font-serif text-3xl capitalize hover:underline active:opacity-50"
+      >
+        <a href="/">{SITE_TITLE}</a>
+      </h2>
+
+      <div class="border-t border-black/10 dark:border-white/10 w-6"></div>
+    </div>
+
+    <div class="flex gap-5 text-sm">
+      <HeaderLink href="https://github.com/ahkohd">Open source</HeaderLink>
+      <span>//</span>
+      <HeaderLink href="/#made-by-aremu">Made by Aremu</HeaderLink>
+    </div>
+  </nav>
+</header>

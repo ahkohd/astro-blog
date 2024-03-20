@@ -1,0 +1,31 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Projects from "../components/Projects.astro";
+import Writing from "../components/Writing.astro";
+import Footer from "../components/Footer.astro";
+import { TailwindIndicator } from "../components/ui-debug";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body class="wrap">
+    <Header />
+    <main>
+      <h1 class="text-3x font-bold font-serif mb-3">About me</h1>
+      <p class="font-serif italic text-4xl mb-10">
+        I have been building all my life. I'm a maker, a software engineer.
+      </p>
+
+      <Projects />
+
+      <Writing />
+    </main>
+    <Footer />
+    <TailwindIndicator />
+  </body>
+</html>

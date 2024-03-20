@@ -1,0 +1,47 @@
+#blog-content {
+  a {
+    @apply underline active:opacity-50;
+  }
+
+  p {
+    @apply mb-4;
+
+    code {
+      @apply bg-yellow text-white dark:text-black;
+    }
+  }
+
+  blockquote {
+    @apply relative mt-4;
+
+    &::after {
+      @apply absolute top-0 font-serif text-4xl;
+
+      content: "❝";
+    }
+
+    p {
+      @apply p-4 pl-6 font-serif italic;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply my-5;
+  }
+
+  h3 {
+    @apply text-xl font-bold font-serif;
+  }
+
+  ul {
+    @apply list-disc pl-10;
+  }
+
+  pre.astro-code {
+    @apply p-2 my-5 bg-base-50 dark:bg-base-950 #{!important};
+  }
+}
