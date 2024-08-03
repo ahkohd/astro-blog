@@ -58,7 +58,7 @@ export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     fontFamily: {
-      sans: ["Bricolage Grotesque", ...defaultTheme.fontFamily.sans],
+      sans: ["Instrument Sans", ...defaultTheme.fontFamily.sans],
       serif: ["Instrument Serif", ...defaultTheme.fontFamily.sans],
     },
     extend: {
