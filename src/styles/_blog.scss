@@ -15,7 +15,7 @@
     @apply relative mt-4;
 
     &::after {
-      @apply absolute top-0 font-serif text-4xl;
+      @apply absolute top-0 font-serif text-2xl;
 
       content: "❝";
     }
