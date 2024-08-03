@@ -6,13 +6,16 @@ import Writing from "../components/Writing.astro";
 import Footer from "../components/Footer.astro";
 import { TailwindIndicator } from "../components/ui-debug";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import Posthog from "../components/posthog.astro";
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <Posthog />
   </head>
+
   <body class="wrap">
     <Header />
     <main>
