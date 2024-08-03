@@ -1,8 +1,7 @@
 ---
 title: 'Fix "warning: object file (xyz) was built for newer macOS version (x.y) that being linked (y.z)'
-description: ""
 pubDate: "Dec 04 2022"
-heroImage: "/blog-placeholder-3.jpg"
+draft: false
 ---
 
 The other day I was working on a [macOS](https://usezap.sh) app built with Tauri and Rust. I encountered a build error; `"warning: object file (XYZ) was built for newer macOS version (x.y) that being linked (y.z)"` when building for the `apple-x86_64` target.
