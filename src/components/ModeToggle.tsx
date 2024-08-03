@@ -30,7 +30,7 @@ export function ModeToggle() {
           onClick={() => setThemeState("dark")}
           className="italic decoration-dotted hover:underline active:opacity-50"
         >
-          If you stare long enough into the{" "}
+          And if you gaze long enough into an{" "}
           <span className="font-serif italic text-base">Abyss</span>...
         </button>
       )}
