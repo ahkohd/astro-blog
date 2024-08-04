@@ -6,9 +6,7 @@ export function ModeToggle() {
   );
 
   useEffect(() => {
-    const isDark =
-      theme === "dark" ||
-      window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const isDark = theme === "dark";
 
     document.documentElement.classList[isDark ? "add" : "remove"]("dark");
   }, [theme]);
