@@ -27,7 +27,7 @@
   "devDependencies": {
     "@types/react": "^18.2.65",
     "prettier": "^3.2.5",
-    "prettier-plugin-astro": "^0.13.0",
+    "prettier-plugin-astro": "^0.14.0",
     "sass": "^1.71.1",
     "typescript": "^5.4.2"
   }
