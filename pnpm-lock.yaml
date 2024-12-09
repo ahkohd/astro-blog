@@ -33,8 +33,8 @@ importers:
         specifier: ^5.0.1
         version: 5.0.1(jiti@1.21.6)(rollup@4.28.0)(sass@1.81.1)(typescript@5.7.2)(yaml@2.6.1)
       astro-favicons:
-        specifier: ^2.1.8
-        version: 2.1.8(astro@5.0.1(jiti@1.21.6)(rollup@4.28.0)(sass@1.81.1)(typescript@5.7.2)(yaml@2.6.1))
+        specifier: ^3.0.0
+        version: 3.0.3(astro@5.0.1(jiti@1.21.6)(rollup@4.28.0)(sass@1.81.1)(typescript@5.7.2)(yaml@2.6.1))
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -1004,10 +1004,10 @@ packages:
     resolution: {integrity: sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==}
     hasBin: true
 
-  astro-favicons@2.1.8:
-    resolution: {integrity: sha512-WbmALbs9aZrHjOd6Vmy+kgMT85sZ7JqDMcS9WOZznUYtLo2Z4hLB7scpeSkRsLAILYZp6w7aaRedNRw1peOyAw==}
+  astro-favicons@3.0.3:
+    resolution: {integrity: sha512-N+6w+CC0K+aJddvJ6RaogD4nvPNY1VndiVZ99tlsHZD5G9jiMaJUF7Gh2ZJQZ9S6IeQFWAidH+kD8WkyHCabCw==}
     peerDependencies:
-      astro: ^4.0.0
+      astro: '>= 4.0.0'
 
   astro@5.0.1:
     resolution: {integrity: sha512-7XzFq3eFdSkeT/aCNealVv4klwmKoOYb6LZymbyZQrdUA9vEoUCKFcujVo4YbJJ8WXyEm515ZHPCxHTdDneEug==}
@@ -1323,8 +1323,8 @@ packages:
   fastq@1.17.1:
     resolution: {integrity: sha512-sRVD3lWVIXWg6By68ZN7vho9a1pQcN/WBFaAAsDDFzlJjvoGx0P8z7V1t72grFJfJhu3YPZBuu25f7Kaw2jN1w==}
 
-  favicons-lib@7.2.2:
-    resolution: {integrity: sha512-LBDBJBCEZbEO58Fu5L+fKk6A+VXY51lxrY6zbb0NtZQc2ecFwwi+2CQcMRSsSWt/bT1JZjay6sWNcS1mXmVJ6w==}
+  favilib@1.0.0:
+    resolution: {integrity: sha512-KrQTBV1J5V3ZdygdqvWHlyntd5mOFmo4Jtxx2O3JZd8RlWIhYosvK/nJvINUXq6Qtw6bDB6xhx3AI572hjEkAA==}
     engines: {node: '>=14.0.0'}
 
   file-uri-to-path@1.0.0:
@@ -3489,10 +3489,11 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-favicons@2.1.8(astro@5.0.1(jiti@1.21.6)(rollup@4.28.0)(sass@1.81.1)(typescript@5.7.2)(yaml@2.6.1)):
+  astro-favicons@3.0.3(astro@5.0.1(jiti@1.21.6)(rollup@4.28.0)(sass@1.81.1)(typescript@5.7.2)(yaml@2.6.1)):
     dependencies:
       astro: 5.0.1(jiti@1.21.6)(rollup@4.28.0)(sass@1.81.1)(typescript@5.7.2)(yaml@2.6.1)
-      favicons-lib: 7.2.2
+      favilib: 1.0.0
+      ultrahtml: 1.5.3
 
   astro@5.0.1(jiti@1.21.6)(rollup@4.28.0)(sass@1.81.1)(typescript@5.7.2)(yaml@2.6.1):
     dependencies:
@@ -3896,7 +3897,7 @@ snapshots:
     dependencies:
       reusify: 1.0.4
 
-  favicons-lib@7.2.2:
+  favilib@1.0.0:
     dependencies:
       escape-html: 1.0.3
       sharp: 0.33.5
