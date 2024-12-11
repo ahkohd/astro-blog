@@ -34,7 +34,7 @@ importers:
         version: 5.0.4(jiti@1.21.6)(rollup@4.28.1)(sass@1.82.0)(typescript@5.7.2)(yaml@2.6.1)
       astro-favicons:
         specifier: ^3.0.6
-        version: 3.0.6(astro@5.0.4(jiti@1.21.6)(rollup@4.28.1)(sass@1.82.0)(typescript@5.7.2)(yaml@2.6.1))
+        version: 3.1.1(astro@5.0.4(jiti@1.21.6)(rollup@4.28.1)(sass@1.82.0)(typescript@5.7.2)(yaml@2.6.1))
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -1006,8 +1006,8 @@ packages:
     resolution: {integrity: sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==}
     hasBin: true
 
-  astro-favicons@3.0.6:
-    resolution: {integrity: sha512-sligalT4Yk4anm+q27enqHavw39NRXYJxmRY2wnCB4I1l4iY5husnCfg+tx47BkFnGMYI8veqDT0o1ZQU0CXkw==}
+  astro-favicons@3.1.1:
+    resolution: {integrity: sha512-yNd+P/PvtRW7phcjgYwStUwcaQKBnjh1PJ8XukfZYTJpQ/1I3fc7Nr4Kh8jdQOCIYAs/lJgO9/1lC8HUNvlFnA==}
     peerDependencies:
       astro: '>= 4.0.0'
 
@@ -3421,7 +3421,7 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-favicons@3.0.6(astro@5.0.4(jiti@1.21.6)(rollup@4.28.1)(sass@1.82.0)(typescript@5.7.2)(yaml@2.6.1)):
+  astro-favicons@3.1.1(astro@5.0.4(jiti@1.21.6)(rollup@4.28.1)(sass@1.82.0)(typescript@5.7.2)(yaml@2.6.1)):
     dependencies:
       astro: 5.0.4(jiti@1.21.6)(rollup@4.28.1)(sass@1.82.0)(typescript@5.7.2)(yaml@2.6.1)
       favilib: 1.0.5
